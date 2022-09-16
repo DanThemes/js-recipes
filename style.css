@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.favorites {
+    min-height: 6rem;
+    margin: 1rem 0;
+    background-color: #aaa;
+}
+.recipes > div {
+    min-height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.recipes h4 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+.recipes i {
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+    right: 0;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
