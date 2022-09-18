@@ -71,6 +71,8 @@ const showRecipeDetails = (favorite) => {
 
             row.append(measure, ingredient);
             recipeDetailsLeft.append(row);
+        } else {
+            break;
         }
     }
 
