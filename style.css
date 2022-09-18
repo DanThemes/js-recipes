@@ -203,8 +203,10 @@ h1 {
     padding: 0;
     list-style: inside;
 }
+.recipeDetails li span:not(:last-child):not(:empty) {
+    padding-right: 0.25rem;
+}
 .recipeDetails li span + span {
-    padding-left: 0.25rem;
     color: #939393;
 }
 .recipeDetails div img {
